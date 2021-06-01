@@ -1,0 +1,39 @@
+<html>
+
+   <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+
+  <body>
+
+<a-scene>
+
+    <a-assets>
+
+<img id="texture" src= "src="pine_tree.png">
+
+      <a-asset-item id="book-obj" src="book.obj" ></a-asset-item>
+      <a-asset-item id="book-mtl" src="book.mtl"></a-asset-item>
+      <a-asset-item id="model-obj" src="model.obj" ></a-asset-item>
+      <a-asset-item id="model-mtl" src="model.mtl"></a-asset-item>
+      <a-asset-item id="snail-obj" src="snail.obj" ></a-asset-item>
+      <a-asset-item id="snail-mtl" src="snail.mtl" ></a-asset-item>
+      <a-asset-item id="sapin-obj" src="sapin.obj" ></a-asset-item>
+      <a-asset-item id="sapin-mtl" src="sapin.mtl"></a-asset-item>
+      <a-asset-item id="tree-obj" src="tree.obj" ></a-asset-item>
+      <a-asset-item id="tree-mtl" src="tree.mtl" ></a-asset-item>
+
+    </a-assets>
+
+    <a-entity obj-model="obj: #book-obj; mtl: #book-mtl" position="1 0 -3.5" scale="0.1 0.1 0.1" src="pine_tree.png" ></a-entity>
+    <a-entity obj-model="obj: #model-obj; mtl: #model-mtl" position="0 0 -5" scale="1.5 1.5 1.5" src="pine_tree.png" ></a-entity>
+      <a-entity obj-model="obj: #snail-obj; mtl: #snail-mtl" position="0.8 0.2 -4.2" rotation="0 60 0" scale="0.2 0.2 0.2 "  ></a-entity>
+  <a-entity obj-model="obj: #sapin-obj; mtl: #sapin-mtl" position="1 0 -5" scale="0.5 0.5 0.5" src="pine_tree.png" ></a-entity>
+    <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="-1 0.2 -3" scale="0.1 0.1 0.1 "   ></a-entity>
+
+  <a-plane position="0 0 -4" rotation="-90 0 0" width="3" height="3" color= "green" ></a-plane>
+</a-scene>
+
+  </body>
+
+</html>
